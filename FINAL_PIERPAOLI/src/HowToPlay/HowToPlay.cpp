@@ -42,7 +42,7 @@ namespace app
 			cout << "Fruits will spawn randomly, grab 10 in easy mode, 15 in medium mode or 20 in hard mode in order to win" << endl;
 
 			SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), { 14, 16 }); // Set a cursor position
-			cout << "But watch out! You have a certain time to do so, the harder the level, the less time to grab one" << endl;
+			cout << "But watch out! You have a certain time to do so, the harder the level the less time to grab one" << endl;
 
 			SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), { 53, 18 }); // Set a cursor position
 			cout << "Good luck!" << endl;
